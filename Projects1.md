@@ -48,4 +48,4 @@ With this implementation, we will be able to enter any integer and the function 
 
 ## Resources for other exercises to help learn how to use Haskell
 
-* The Calculator project in Assign1Experience.md provides good practice for recursive functions in Haskell
+* The Calculator project in *Calculator_Project.md* provides good practice for recursive functions in Haskell

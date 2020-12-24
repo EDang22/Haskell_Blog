@@ -39,7 +39,7 @@ To add on to the project, you can add error checking to ensure that all commands
 
 ## Resources that may help
 
-* My implementation can be found in CalcExample.hs
+* My implementation can be found in *CalcExample.hs*
 
 ## My Experience on the Project
 

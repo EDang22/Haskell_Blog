@@ -52,3 +52,8 @@ A let statement allows a user to bind a name to a value or expression.
 * Format: 
 
 > let (name = value/expression) in (expression using name)
+
+## Links that may help
+[Link 1](https://www.tutorialspoint.com/haskell/haskell_functions.htm)
+[Link 2](https://www.haskell.org/tutorial/patterns.html)
+[Link 3](http://learnyouahaskell.com/syntax-in-functions)

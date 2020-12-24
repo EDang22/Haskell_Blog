@@ -4,7 +4,7 @@
 
 For the interpret, we will be using the BNF converter or BNFC in order to parse simple arithmetic to calculate. We will interpret an equation and apply a native Haskell operation on Integers. 
 
-To do this, we will use a three files in total. The file containing the main function will be given and is the `Calculator.hs` file seen in the interpreter file of this blog, this file is what will connect the other two files and is where they will interact.
+To do this, we will use a three files in total. The file containing the main function will be given and is the *Calculator.hs* file seen in the interpreter file of this blog, this file is what will connect the other two files and is where they will interact.
 
 The second file will be a haskell file containing the eval function. This is the function that will apply the native Haskell operation to the two expressions given. Keep in mind that I chose the word expression instead of number because we do not know if what is given will be another function call or an integer. This can also be called an interpreter for absract syntax (More information on this below).
 
@@ -18,11 +18,11 @@ Abstract Syntax is the parsed tree that represents a program and is syntax for t
 
 Links that may help:
 
-[Link1](https://stackoverflow.com/questions/1888854/what-is-the-difference-between-an-abstract-syntax-tree-and-a-concrete-syntax-tre)  
+[Link 1](https://stackoverflow.com/questions/1888854/what-is-the-difference-between-an-abstract-syntax-tree-and-a-concrete-syntax-tre)  
 
-[Link2](http://pico.vub.ac.be/mc/absconc.html#:~:text=The%20abstract%20syntax%20is%20part,or%20compiler%20of%20a%20language.&text=The%20concrete%20syntax%20of%20a,look%20like%20to%20the%20programmer.)  
+[Link 2](http://pico.vub.ac.be/mc/absconc.html#:~:text=The%20abstract%20syntax%20is%20part,or%20compiler%20of%20a%20language.&text=The%20concrete%20syntax%20of%20a,look%20like%20to%20the%20programmer.)  
 
-[Link3](https://eli.thegreenplace.net/2009/02/16/abstract-vs-concrete-syntax-trees)
+[Link 3](https://eli.thegreenplace.net/2009/02/16/abstract-vs-concrete-syntax-trees)
 
 ## Implementation
 
@@ -87,4 +87,4 @@ Which should return something similar to:
 
 > 1 + 2 * 3
 
-In order to test the actual Calculator, pipe the same command into the `Calculator` file. 
+In order to test the actual Calculator, pipe the same command into the *Calculator* file. 

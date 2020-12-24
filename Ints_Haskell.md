@@ -32,6 +32,6 @@ To get started using numbers in Haskell, a simple first step could be simply lau
 
 ## Links to learn more
 
-[Link1](https://www.haskell.org/tutorial/numbers.html)
+[Link 1](https://www.haskell.org/tutorial/numbers.html)
 
-[Link2](http://learnyouahaskell.com/types-and-typeclasses)
+[Link 2](http://learnyouahaskell.com/types-and-typeclasses)

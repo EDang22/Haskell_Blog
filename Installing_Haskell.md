@@ -1,6 +1,6 @@
 # Installing Haskell, BNFC etc. + Any issues that may arise
 
-**NOTE: These instructions are currently for Linux/Mac users only, windows will come soon. Observations and errors found were also through the perspective of Haskell on MacOS.**
+**NOTE: These instructions are currently for Linux/Mac users only. Observations and errors found were also through the perspective of Haskell on MacOS.**
 
 ## *HASKELL*
 
@@ -55,3 +55,8 @@ The issue that occurred when attempting to run this command was that I did not h
 Another issue that may occur when working with BNFC is that "happy" is not installed. To install, enter:
 
 > cabal install happy
+
+## Links that may help
+
+[Haskell Website](https://www.haskell.org/platform/)
+[Cabal](https://www.haskell.org/cabal/)
