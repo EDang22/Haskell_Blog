@@ -56,4 +56,4 @@ To better understand Pattern Matching, lets create a function that uses pattern 
 
 [Link 1](http://learnyouahaskell.com/syntax-in-functions)
 [Link 2](https://www.tutorialspoint.com/haskell/haskell_functions.htm)
-
+[Link 3](https://www.haskell.org/tutorial/functions.html)
