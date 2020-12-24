@@ -9,6 +9,7 @@ In this blog I talk about:
 
 2. Basics of Haskell including
     
+    - Syntax
     - Numbers
     - Functions and Pattern Matching
     - Lists and Ranges
