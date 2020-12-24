@@ -58,6 +58,28 @@ In order to make the creation of lists more efficient, Haskell has ranges which 
 
 * Ranges can also be made more specific by adding multiple terms to be interpreted as a step. Using this we can output all even numbers from 2 to 10 by inputting `[2,4..10]` as well as count backwards, `[10,9..1]` will output a descending list from 10 to 1. 
 
+## List Comprehension
+
+List Comprehension in Haskell is a way of creating a list based on a user defined math equation or expression. The format to do so is `[output | range, conditions]`.
+
+* Note that the output can have constraints on it as well (example shown below) and that multiple conditions can be placed on the list (or none at all).
+
+* In addition, the output can be an expression itself that contains two variables, if there are two variables, both can be given a range while still applying conditions. (Example below)
+
+### Examples
+
+* Generate a list containing all numbers ranging from 1 to 30 that are divisible by 3
+
+> [x | x <- \[1..30\], x `mod` 3 == 0]
+
+* Generate a list containing all even numbers from 1 to 100 that are not divisible by 4 or 6
+
+> [x | x <- \[1..100\], even x, x `mod` 4 /= 0, x `mod` 6 /= 0]
+
+* Using a list of all numbers from 1 to 50, output x for all numbers divisible by 5 and output y for all other numbers
+
+> [if (x `mod' 5 == 0) then 'x' else 'y' | x <- \[1..50\]]
+
 ## Links that may help
 
 [Link 1](https://www.tutorialspoint.com/haskell/haskell_basic_data_models.htm)
