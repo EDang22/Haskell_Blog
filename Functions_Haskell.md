@@ -1,16 +1,4 @@
-# Understanding the basics of data types and functions in Haskell and how to get into it
-
-## Ints
-
-* For the most part, ints in Haskell work the same way any other integer would work in other programming languages. Ints can be seen by entering arithmetic into ghci. Operations such as addition, subtraction, multiplication and division can be seen. 
-
-* Something to keep in mind with Ints are that they are considered to be Integrals in Haskell. In Haskell, the data type Integrals represent whole numbers. The two most common types are Integer and Int. Ints can store a 64 bit integer while Integer is meant for any numbers larger than that. For the most part, you will only be using Ints in Haskell as the numbers used will most likely not exceed 2^64.
-
-* Though this does not sound significant. It means that any function that takes floating point numbers \(double, float etc.\) will not take Integers unless the integer is converted to a floating point number. 
-
-* An example of this could be seen with the square root function in Haskell. If you were trying to find the square root of the int 4, the function call would be `sqrt 4`. Though this should work in principle, Haskell will return an error due to the fact that the `sqrt` function in Haskell only takes floating point numbers. 
-
-* To resolve the issue, Haskell has functions `fromInteger`, which converts an Integer to type Num and `toInteger` which takes type Num and returns the Integer corresponding to the given Num
+# Understanding the basics of functions and pattern matching in Haskell
 
 ## Functions
 
@@ -43,4 +31,16 @@ If you would like to specify the number of parameters, the types and declare a r
 
 > Function with two parameter
 > [function name] :: [parameter type] -> [parameter type] -> [return type]
+
+## Pattern Matching
+
+Pattern Matching in Haskell can be seen as a way of deconstructing a function into different patterns that will be found and defining a different action based on each of those patterns. Though this explanation may seem a bit confusing, it is the method through which all functions are defined in Haskell are defined and with practice, becomes quite simple to understand.
+
+### Example of Pattern Matching
+
+
+
+## Links for more information:
+
+
 

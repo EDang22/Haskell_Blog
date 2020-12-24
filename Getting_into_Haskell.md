@@ -1,4 +1,4 @@
-# Ways to learn about Haskell and how to get started
+# Things to know about Haskell and how to get started
 
 In order to use Haskell, it is important to learn what Haskell is as a language. 
 
@@ -40,7 +40,7 @@ In order to use Haskell, it is important to learn what Haskell is as a language.
 
 * Once ghci has been launched, load the file. After executing the console should print "Hello World".
 
-* To learn more about functions and data types, refer to DataTypesinHaskell.md
+* To learn more about functions and data types, refer to FunctionsinHaskell.md and TypesinHaskell.md.
 
 ## Working with BNFC
 
