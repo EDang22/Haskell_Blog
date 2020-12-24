@@ -38,9 +38,22 @@ Pattern Matching in Haskell can be seen as a way of deconstructing a function in
 
 ### Example of Pattern Matching
 
+To better understand Pattern Matching, lets create a function that uses pattern matching in Haskell. The function will take an int *n* and will return a string that is the number in the form of a word. Lets call the function writeNum. If you were to input `writeNum 1`, the function should return `one`. In addition, lets set the limit on the greatest number to be 4 and the smallest number to be 0, and any number given that is greater than 4 and less than will return `not in range`. The implementation of the function can be seen below:
 
+> writeNum :: Int -> String
+> writeNum 0 = "zero"
+> writeNum 1 = "one"
+> writeNum 2 = "two"
+> writeNum 3 = "three"
+> writeNum 4 = "four"
+> writeNum x = "not in range"
+
+* This function uses pattern matching by defining specific, unique return values for the pattern values of 0, 1, 2, 3, and 4. The last line defines any pattern and allows for any int to be entered into the function without an error being returned.
+
+* Note that the definition for all other patterns (writeNum x) is the last definition. If this were to be first line in the function definition, all other pattern matched definitions would never be reached as the given pattern will always match the case `writeNum x` and always return the value associated with it.
 
 ## Links for more information:
 
-
+[Link 1](http://learnyouahaskell.com/syntax-in-functions)
+[Link 2](https://www.tutorialspoint.com/haskell/haskell_functions.htm)
 
