@@ -42,6 +42,6 @@ Other types classes built within Haskell are the Bounded class, which places a b
 
 ## Links for more information:
 
-[Link1](https://www.tutorialspoint.com/haskell/haskell_types_and_type_class.htm)
+[Link 1](https://www.tutorialspoint.com/haskell/haskell_types_and_type_class.htm)
 
-[Link2](http://learnyouahaskell.com/types-and-typeclasses)
+[Link 2](http://learnyouahaskell.com/types-and-typeclasses)

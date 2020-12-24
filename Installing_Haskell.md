@@ -59,4 +59,5 @@ Another issue that may occur when working with BNFC is that "happy" is not insta
 ## Links that may help
 
 [Haskell Website](https://www.haskell.org/platform/)
+
 [Cabal](https://www.haskell.org/cabal/)

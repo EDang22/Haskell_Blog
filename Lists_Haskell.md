@@ -83,5 +83,7 @@ List Comprehension in Haskell is a way of creating a list based on a user define
 ## Links that may help
 
 [Link 1](https://www.tutorialspoint.com/haskell/haskell_basic_data_models.htm)
+
 [Link 2](http://learnyouahaskell.com/starting-out)
+
 [Link 3](https://hackage.haskell.org/package/base-4.14.1.0/docs/Data-List.html)
